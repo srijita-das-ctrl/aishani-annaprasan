@@ -1,0 +1,1226 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#fdf3dc">
+
+  <title>ঐশানীর শুভ অন্নপ্রাশন</title>
+
+  <!-- Literary & Calligraphic Bengali Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Atma:wght@500;600&family=Galada&family=Noto+Serif+Bengali:wght@400;500;600;700&family=Tiro+Bangla:ital@0;1&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Background music -->
+  <audio id="bgMusic" src="background-music.mp3" loop preload="auto"></audio>
+
+  <button id="musicToggle" class="music-toggle" aria-label="গান চালু বা বন্ধ করুন">
+    ♫
+  </button>
+
+  <!-- Soft Watercolor Courtyard Backdrop & Alpana Frame -->
+  <div class="ambient" aria-hidden="true"></div>
+  <div class="alpana-pillars" aria-hidden="true"></div>
+  <div class="alpana-dado" aria-hidden="true"></div>
+
+  <!-- Top Festive Crimson Curtains -->
+  <div class="festive-curtains" aria-hidden="true">
+    <svg viewBox="0 0 400 88" preserveAspectRatio="none">
+      <defs>
+        <linearGradient id="curtainRed" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#9e1920"/>
+          <stop offset="55%" stop-color="#c9242c"/>
+          <stop offset="100%" stop-color="#a81b22"/>
+        </linearGradient>
+      </defs>
+      <!-- Left Curtain Drape -->
+      <path d="M0 0 H148 Q116 42 64 56 Q32 65 0 84 Z" fill="url(#curtainRed)"/>
+      <path d="M0 0 H148 Q116 42 64 56 Q32 65 0 84" fill="none" stroke="#ecc054" stroke-width="2.5"/>
+      <path d="M2 80 Q33 62 64 53 Q112 39 143 2" fill="none" stroke="#fff8e8" stroke-width="2" stroke-dasharray="2.5 3.5" opacity="0.9"/>
+      <path d="M26 0 Q20 33 7 58 M58 0 Q48 31 30 53 M92 0 Q80 24 62 43" fill="none" stroke="#7d1015" stroke-width="1.5" opacity="0.45"/>
+
+      <!-- Right Curtain Drape -->
+      <path d="M400 0 H252 Q284 42 336 56 Q368 65 400 84 Z" fill="url(#curtainRed)"/>
+      <path d="M400 0 H252 Q284 42 336 56 Q368 65 400 84" fill="none" stroke="#ecc054" stroke-width="2.5"/>
+      <path d="M398 80 Q367 62 336 53 Q288 39 257 2" fill="none" stroke="#fff8e8" stroke-width="2" stroke-dasharray="2.5 3.5" opacity="0.9"/>
+      <path d="M374 0 Q380 33 393 58 M342 0 Q352 31 370 53 M308 0 Q320 24 338 43" fill="none" stroke="#7d1015" stroke-width="1.5" opacity="0.45"/>
+    </svg>
+  </div>
+
+  <div class="gold-frame" aria-hidden="true"></div>
+  <div id="petals" aria-hidden="true"></div>
+
+
+  <main id="stage">
+
+    <!-- =====================================
+         PAGE 1: OPENING / BONEDI BARI
+    ====================================== -->
+
+    <section class="scene active cover" id="scene0">
+
+      <div class="scene-content opening-layout">
+
+        <div class="opening-ornament reveal">
+          ❀ ───── ❀
+        </div>
+
+        <div class="opening-heading reveal">
+          সাদর আমন্ত্রণ
+        </div>
+
+        <div class="opening-subheading reveal">
+          ঐশানীর শুভ অন্নপ্রাশনে
+        </div>
+
+
+        <!-- Illustrated Bonedi Bari Doorway + Baby Doodle & Annaprasan Feast -->
+
+        <div class="bonedi-art reveal" aria-hidden="true">
+
+          <svg viewBox="0 0 360 355">
+
+            <defs>
+              <linearGradient id="courtyardWall" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#fdf3d7"/>
+                <stop offset="100%" stop-color="#f2d397"/>
+              </linearGradient>
+
+              <linearGradient id="courtyardFloor" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#9e6d4b"/>
+                <stop offset="100%" stop-color="#7c5033"/>
+              </linearGradient>
+
+              <linearGradient id="doorSky" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#7bc6f7"/>
+                <stop offset="65%" stop-color="#bfe7ff"/>
+                <stop offset="100%" stop-color="#f0faff"/>
+              </linearGradient>
+
+              <linearGradient id="emeraldDoor" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#237531"/>
+                <stop offset="100%" stop-color="#144d1e"/>
+              </linearGradient>
+
+              <radialGradient id="fanlightGold" cx="50%" cy="85%" r="75%">
+                <stop offset="0%" stop-color="#ffe785"/>
+                <stop offset="55%" stop-color="#f5aa28"/>
+                <stop offset="100%" stop-color="#d67a15"/>
+              </radialGradient>
+
+              <linearGradient id="brassGold" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0%" stop-color="#fbe28a"/>
+                <stop offset="50%" stop-color="#e3ad34"/>
+                <stop offset="100%" stop-color="#b8801a"/>
+              </linearGradient>
+
+              <linearGradient id="asanPink" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#c44474"/>
+                <stop offset="50%" stop-color="#a82e5c"/>
+                <stop offset="100%" stop-color="#871f47"/>
+              </linearGradient>
+
+              <linearGradient id="babyVeil" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#e65547" stop-opacity="0.88"/>
+                <stop offset="100%" stop-color="#f38b75" stop-opacity="0.72"/>
+              </linearGradient>
+            </defs>
+
+
+            <!-- Courtyard Cream Wall Backdrop -->
+            <rect x="18" y="8" width="324" height="222" rx="16" fill="url(#courtyardWall)" stroke="#d9b266" stroke-width="2"/>
+
+            <!-- Left & Right Ornate Alpana Pillars -->
+            <g opacity="0.85">
+              <rect x="24" y="14" width="26" height="158" rx="4" fill="#fffaf0" stroke="#e4c584" stroke-width="1"/>
+              <path d="M37 22 V164 M31 32 Q37 26 43 32 Q37 38 31 32 M31 56 Q37 50 43 56 Q37 62 31 56 M31 80 Q37 74 43 80 Q37 86 31 80 M31 104 Q37 98 43 104 Q37 110 31 104 M31 128 Q37 122 43 128 Q37 134 31 128 M31 150 Q37 144 43 150 Q37 156 31 150"
+                    fill="none" stroke="#d49e42" stroke-width="1.3"/>
+
+              <rect x="310" y="14" width="26" height="158" rx="4" fill="#fffaf0" stroke="#e4c584" stroke-width="1"/>
+              <path d="M323 22 V164 M317 32 Q323 26 329 32 Q323 38 317 32 M317 56 Q323 50 329 56 Q323 62 317 56 M317 80 Q323 74 329 80 Q323 86 317 80 M317 104 Q323 98 329 104 Q323 110 317 104 M317 128 Q323 122 329 128 Q323 134 317 128 M317 150 Q323 144 329 150 Q323 156 317 150"
+                    fill="none" stroke="#d49e42" stroke-width="1.3"/>
+            </g>
+
+            <!-- Terracotta-Red Lower Wall Band with White Bengali Alpana -->
+            <rect x="20" y="168" width="320" height="58" fill="#b3302e"/>
+            <line x1="20" y1="172" x2="340" y2="172" stroke="#fff7e6" stroke-width="1.4" stroke-dasharray="3 3"/>
+            <line x1="20" y1="221" x2="340" y2="221" stroke="#f0c351" stroke-width="1.8"/>
+            <path d="M24 196 Q38 180 52 196 T80 196 T108 196 M252 196 Q266 180 280 196 T308 196 T336 196"
+                  fill="none" stroke="#fff8eb" stroke-width="1.8" opacity="0.9"/>
+            <g fill="#fff8eb" opacity="0.92">
+              <circle cx="38" cy="197" r="2.8"/><circle cx="66" cy="197" r="2.8"/><circle cx="94" cy="197" r="2.8"/>
+              <circle cx="266" cy="197" r="2.8"/><circle cx="294" cy="197" r="2.8"/><circle cx="322" cy="197" r="2.8"/>
+              <circle cx="52" cy="184" r="1.9"/><circle cx="80" cy="184" r="1.9"/>
+              <circle cx="280" cy="184" r="1.9"/><circle cx="308" cy="184" r="1.9"/>
+            </g>
+
+
+            <!-- BONEDI BARI EMERALD ARCHED DOORWAY -->
+            <path d="M104 226 V96 A76 76 0 0 1 256 96 V226 Z"
+                  fill="#195c24" stroke="#e6b64c" stroke-width="2.5"/>
+
+            <!-- Golden Lotus Stained-Glass Fanlight -->
+            <path d="M114 96 A66 66 0 0 1 246 96 Z"
+                  fill="url(#fanlightGold)" stroke="#165220" stroke-width="2.5"/>
+            <g fill="#ffcf54" stroke="#9e470c" stroke-width="1.4">
+              <path d="M180 95 Q169 65 180 35 Q191 65 180 95 Z"/>
+              <path d="M180 95 Q152 72 145 45 Q168 64 180 95 Z"/>
+              <path d="M180 95 Q208 72 215 45 Q192 64 180 95 Z"/>
+              <path d="M180 95 Q138 86 121 68 Q150 74 180 95 Z"/>
+              <path d="M180 95 Q222 86 239 68 Q210 74 180 95 Z"/>
+            </g>
+            <circle cx="180" cy="95" r="9.5" fill="#fff0a6" stroke="#9e470c" stroke-width="1.5"/>
+
+            <!-- Open Doorway Sky & Clouds -->
+            <rect x="115" y="98" width="130" height="128" fill="url(#doorSky)"/>
+            <g class="sky-clouds" fill="#ffffff" opacity="0.88">
+              <path d="M148 134 Q154 123 166 126 Q175 117 188 124 Q199 123 203 134 Q210 137 207 145 H145 Q141 138 148 134 Z"/>
+              <path d="M160 164 Q167 156 177 159 Q186 153 195 160 Q201 163 198 169 H158 Q155 166 160 164 Z" opacity="0.75"/>
+            </g>
+
+            <!-- Left & Right Open Emerald Wooden Door Leaves -->
+            <g stroke="#0e3b16" stroke-width="1.6">
+              <polygon points="115,98 153,108 153,220 115,226" fill="url(#emeraldDoor)"/>
+              <polygon points="121,111 146,118 146,154 121,152" fill="#277d36" stroke="#134a1c" stroke-width="1.2"/>
+              <polygon points="121,163 146,164 146,208 121,213" fill="#277d36" stroke="#134a1c" stroke-width="1.2"/>
+              <circle cx="148" cy="164" r="2.3" fill="#f0c351" stroke="none"/>
+
+              <polygon points="245,98 207,108 207,220 245,226" fill="url(#emeraldDoor)"/>
+              <polygon points="239,111 214,118 214,154 239,152" fill="#277d36" stroke="#134a1c" stroke-width="1.2"/>
+              <polygon points="239,163 214,164 214,208 239,213" fill="#277d36" stroke="#134a1c" stroke-width="1.2"/>
+              <circle cx="212" cy="164" r="2.3" fill="#f0c351" stroke="none"/>
+            </g>
+
+            <rect x="102" y="95" width="156" height="6" rx="2" fill="#175421" stroke="#e6b64c" stroke-width="1.1"/>
+
+
+            <!-- TWIN BANANA TREES (কলাগাছ) -->
+            <g class="banana-trees">
+              <g>
+                <rect x="64" y="148" width="9" height="78" rx="4" fill="#4e8c3b" stroke="#29571e" stroke-width="1.3"/>
+                <path d="M68 156 Q34 124 16 146 Q42 152 68 164 Z" fill="#5da644" stroke="#29571e" stroke-width="1.3"/>
+                <path d="M68 150 Q44 106 34 86 Q60 112 70 152 Z" fill="#468a34" stroke="#29571e" stroke-width="1.3"/>
+                <path d="M70 148 Q70 100 84 82 Q88 114 72 152 Z" fill="#6bb54e" stroke="#29571e" stroke-width="1.3"/>
+                <path d="M71 158 Q96 126 112 142 Q92 152 71 164 Z" fill="#4c9138" stroke="#29571e" stroke-width="1.3"/>
+                <path d="M66 172 Q36 164 22 184 Q45 182 67 178 Z" fill="#3e7a2d" stroke="#29571e" stroke-width="1.2"/>
+              </g>
+
+              <g>
+                <rect x="287" y="148" width="9" height="78" rx="4" fill="#4e8c3b" stroke="#29571e" stroke-width="1.3"/>
+                <path d="M292 156 Q326 124 344 146 Q318 152 292 164 Z" fill="#5da644" stroke="#29571e" stroke-width="1.3"/>
+                <path d="M292 150 Q316 106 326 86 Q300 112 290 152 Z" fill="#468a34" stroke="#29571e" stroke-width="1.3"/>
+                <path d="M290 148 Q290 100 276 82 Q272 114 288 152 Z" fill="#6bb54e" stroke="#29571e" stroke-width="1.3"/>
+                <path d="M289 158 Q264 126 248 142 Q268 152 289 164 Z" fill="#4c9138" stroke="#29571e" stroke-width="1.3"/>
+                <path d="M294 172 Q324 164 338 184 Q315 182 293 178 Z" fill="#3e7a2d" stroke="#29571e" stroke-width="1.2"/>
+              </g>
+            </g>
+
+
+            <!-- COURTYARD FLOOR & MAGENTA ASAN -->
+            <rect x="18" y="225" width="324" height="122" rx="16" fill="url(#courtyardFloor)"/>
+            <line x1="18" y1="226" x2="342" y2="226" stroke="#5e3920" stroke-width="2"/>
+
+            <g>
+              <polygon points="62,232 298,232 324,274 36,274" fill="url(#asanPink)" stroke="#6e1738" stroke-width="1.6"/>
+              <line x1="56" y1="241" x2="304" y2="241" stroke="#f0c351" stroke-width="1.3" stroke-dasharray="4 3"/>
+              <line x1="48" y1="253" x2="312" y2="253" stroke="#f7dce6" stroke-width="1.1" opacity="0.65"/>
+              <line x1="41" y1="265" x2="319" y2="265" stroke="#f0c351" stroke-width="1.5"/>
+              <path d="M36 274 L30 278 M56 232 L50 230 M304 232 L310 230 M324 274 L330 278" stroke="#f3d6e1" stroke-width="1.4"/>
+            </g>
+
+
+            <!-- BABY DOODLE IN BENARASI & SHOLAR MUKUT -->
+            <g class="door-baby">
+              <path d="M148 164 Q122 204 82 254 Q112 263 142 254 L152 215 Z"
+                    fill="url(#babyVeil)" stroke="#f3c556" stroke-width="1.4"/>
+              <path d="M212 164 Q238 204 278 254 Q248 263 218 254 L208 215 Z"
+                    fill="url(#babyVeil)" stroke="#f3c556" stroke-width="1.4"/>
+
+              <path d="M145 212 Q180 198 215 212 L226 254 Q180 264 134 254 Z"
+                    fill="#d12229" stroke="#7d1116" stroke-width="1.5"/>
+              <path d="M148 213 L206 248 M155 210 L213 245" stroke="#f2c44d" stroke-width="3"/>
+              <path d="M137 248 Q180 257 223 248" fill="none" stroke="#f2c44d" stroke-width="2.6"/>
+              <g fill="#f7d56e">
+                <circle cx="154" cy="237" r="1.7"/><circle cx="168" cy="242" r="1.7"/><circle cx="182" cy="240" r="1.7"/>
+              </g>
+
+              <path d="M165 207 Q180 218 195 207" fill="none" stroke="#f5ca52" stroke-width="2.2"/>
+              <circle cx="180" cy="214" r="2.5" fill="#d12229" stroke="#f5ca52" stroke-width="0.9"/>
+
+              <path d="M208 213 Q222 232 214 252 Q204 256 200 248 Q204 233 197 221 Z"
+                    fill="#ffd9be" stroke="#7d4a34" stroke-width="1.3"/>
+              <path d="M204 210 Q218 216 218 227 L202 228 Z" fill="#d12229" stroke="#f2c44d" stroke-width="1.2"/>
+              <line x1="201" y1="245" x2="215" y2="248" stroke="#f2c44d" stroke-width="2.4"/>
+
+              <circle cx="143" cy="180" r="7.5" fill="#f7c4a1" stroke="#7d4a34" stroke-width="1.3"/>
+              <circle cx="217" cy="180" r="7.5" fill="#f7c4a1" stroke="#7d4a34" stroke-width="1.3"/>
+              <circle cx="143" cy="185" r="2.2" fill="#f2c44d"/>
+              <circle cx="217" cy="185" r="2.2" fill="#f2c44d"/>
+
+              <ellipse cx="180" cy="177" rx="37" ry="33" fill="#ffd9be" stroke="#6e3f2c" stroke-width="1.5"/>
+
+              <path d="M143 176 Q141 142 180 142 Q219 142 217 176 Q207 154 180 156 Q153 154 143 176 Z"
+                    fill="#231918"/>
+              <path d="M145 174 Q148 182 144 186 M215 174 Q212 182 216 186"
+                    fill="none" stroke="#231918" stroke-width="1.8" stroke-linecap="round"/>
+
+              <!-- White Sholar Mukut -->
+              <g>
+                <path d="M147 151 Q180 137 213 151 L209 158 Q180 146 151 158 Z"
+                      fill="#ffffff" stroke="#b59d84" stroke-width="1.2"/>
+                <path d="M161 146 Q168 124 180 107 Q192 124 199 146 Z"
+                      fill="#fffdf9" stroke="#b59d84" stroke-width="1.3"/>
+                <path d="M170 144 Q175 129 180 118 Q185 129 190 144 Z"
+                      fill="#f5efe6" stroke="#c9b298" stroke-width="1"/>
+                <circle cx="155" cy="144" r="5.5" fill="#ffffff" stroke="#b59d84" stroke-width="1.1"/>
+                <circle cx="205" cy="144" r="5.5" fill="#ffffff" stroke="#b59d84" stroke-width="1.1"/>
+                <circle cx="164" cy="134" r="4.5" fill="#ffffff" stroke="#b59d84" stroke-width="1"/>
+                <circle cx="196" cy="134" r="4.5" fill="#ffffff" stroke="#b59d84" stroke-width="1"/>
+                <circle cx="180" cy="105" r="2.8" fill="#ffffff" stroke="#b59d84" stroke-width="1.1"/>
+                <circle cx="180" cy="135" r="3" fill="#d4262e" stroke="#f0c351" stroke-width="1.1"/>
+              </g>
+
+              <path d="M157 165 Q165 160 172 164" fill="none" stroke="#2b1e1c" stroke-width="1.8" stroke-linecap="round"/>
+              <path d="M188 164 Q195 160 203 165" fill="none" stroke="#2b1e1c" stroke-width="1.8" stroke-linecap="round"/>
+
+              <circle cx="180" cy="164" r="3.1" fill="#d42228"/>
+              <circle cx="172" cy="159" r="1.1" fill="#fffdf7"/>
+              <circle cx="188" cy="159" r="1.1" fill="#fffdf7"/>
+
+              <g>
+                <ellipse cx="165" cy="176" rx="6.2" ry="7" fill="#1e1514"/>
+                <circle cx="163" cy="173.5" r="2.4" fill="#ffffff"/>
+                <circle cx="167.2" cy="178.5" r="1.1" fill="#ffffff"/>
+
+                <ellipse cx="195" cy="176" rx="6.2" ry="7" fill="#1e1514"/>
+                <circle cx="193" cy="173.5" r="2.4" fill="#ffffff"/>
+                <circle cx="197.2" cy="178.5" r="1.1" fill="#ffffff"/>
+              </g>
+
+              <ellipse cx="155" cy="186" rx="6.8" ry="4.2" fill="#f28585" opacity="0.62"/>
+              <ellipse cx="205" cy="186" rx="6.8" ry="4.2" fill="#f28585" opacity="0.62"/>
+
+              <path d="M178 183 Q180 185 182 183" fill="none" stroke="#9e5c43" stroke-width="1.4" stroke-linecap="round"/>
+              <path d="M172 191 Q180 198 188 191" fill="none" stroke="#9e3b38" stroke-width="2" stroke-linecap="round"/>
+            </g>
+
+
+            <!-- BRASS ANNAPRASAN THALI & PANCHABATI -->
+            <g>
+              <ellipse cx="176" cy="296" rx="58" ry="24" fill="url(#brassGold)" stroke="#8c5d12" stroke-width="1.6"/>
+              <ellipse cx="176" cy="295" rx="49" ry="19" fill="#f6d574" stroke="#b8821c" stroke-width="1.2"/>
+
+              <path d="M137 294 Q142 269 162 269 Q182 269 187 294 Q162 302 137 294 Z"
+                    fill="#ffffff" stroke="#dcd6c8" stroke-width="1.1"/>
+              <path d="M150 282 L154 281 M161 277 L166 278 M170 284 L175 283 M156 289 L161 288"
+                    stroke="#d6cfc2" stroke-width="1.2" stroke-linecap="round"/>
+
+              <ellipse cx="173" cy="303" rx="11" ry="4.5" fill="#468736"/>
+              <ellipse cx="195" cy="291" rx="9" ry="4.5" fill="#d98a2b"/>
+              <ellipse cx="204" cy="298" rx="8" ry="4" fill="#c96b24"/>
+              <circle cx="194" cy="303" r="4.5" fill="#fff7e0" stroke="#d4a13b" stroke-width="0.9"/>
+
+              <g class="door-baby">
+                <path d="M153 213 Q146 244 156 275 Q165 278 168 271 Q162 246 165 220 Z"
+                      fill="#ffd9be" stroke="#7d4a34" stroke-width="1.3"/>
+                <path d="M151 210 Q143 220 146 231 L163 229 Z" fill="#d12229" stroke="#f2c44d" stroke-width="1.2"/>
+                <line x1="152" y1="262" x2="166" y2="260" stroke="#f2c44d" stroke-width="2.4"/>
+                <ellipse cx="162" cy="275" rx="7.5" ry="5" fill="#ffd9be" stroke="#7d4a34" stroke-width="1.2"/>
+              </g>
+
+              <g>
+                <polygon points="103,262 117,262 115,281 105,281" fill="url(#brassGold)" stroke="#8c5d12" stroke-width="1.2"/>
+                <ellipse cx="110" cy="262" rx="7" ry="2.4" fill="#dcf2ff" stroke="#8c5d12" stroke-width="1.1"/>
+              </g>
+
+              <g>
+                <ellipse cx="86" cy="282" rx="14" ry="7" fill="url(#brassGold)" stroke="#8c5d12" stroke-width="1.2"/>
+                <ellipse cx="86" cy="281" rx="11" ry="4.5" fill="#f2b830"/>
+              </g>
+
+              <g>
+                <ellipse cx="72" cy="304" rx="16" ry="8" fill="url(#brassGold)" stroke="#8c5d12" stroke-width="1.3"/>
+                <ellipse cx="72" cy="302" rx="13" ry="5.5" fill="#9e4922"/>
+                <path d="M64 301 Q72 293 80 301 Z" fill="#c77a38"/>
+              </g>
+
+              <g>
+                <ellipse cx="98" cy="326" rx="16" ry="7.5" fill="url(#brassGold)" stroke="#8c5d12" stroke-width="1.3"/>
+                <ellipse cx="98" cy="325" rx="13" ry="5" fill="#faecc8"/>
+
+                <ellipse cx="144" cy="336" rx="16" ry="7.5" fill="url(#brassGold)" stroke="#8c5d12" stroke-width="1.3"/>
+                <ellipse cx="144" cy="335" rx="13" ry="5" fill="#e89a2c"/>
+
+                <ellipse cx="198" cy="336" rx="16" ry="7.5" fill="url(#brassGold)" stroke="#8c5d12" stroke-width="1.3"/>
+                <ellipse cx="198" cy="335" rx="13" ry="5" fill="#8c3d1e"/>
+
+                <ellipse cx="246" cy="321" rx="16" ry="7.5" fill="url(#brassGold)" stroke="#8c5d12" stroke-width="1.3"/>
+                <ellipse cx="246" cy="320" rx="13" ry="5" fill="#cc2b25"/>
+                <line x1="251" y1="319" x2="264" y2="309" stroke="#f7e39c" stroke-width="2" stroke-linecap="round"/>
+              </g>
+
+              <g>
+                <ellipse cx="244" cy="284" rx="13" ry="6.5" fill="url(#brassGold)" stroke="#8c5d12" stroke-width="1.2"/>
+                <ellipse cx="244" cy="283" rx="10.5" ry="4.2" fill="#fffdf7"/>
+                <line x1="248" y1="282" x2="258" y2="275" stroke="#f7e39c" stroke-width="1.8" stroke-linecap="round"/>
+
+                <ellipse cx="268" cy="297" rx="13" ry="6.5" fill="url(#brassGold)" stroke="#8c5d12" stroke-width="1.2"/>
+                <ellipse cx="268" cy="296" rx="10.5" ry="4.2" fill="#a86228"/>
+              </g>
+            </g>
+
+          </svg>
+
+        </div>
+
+
+        <div class="baby-name reveal">
+          ঐশানী মজুমদার
+        </div>
+
+        <div class="opening-footer reveal">
+          আনন্দ, আশীর্বাদ ও ভালোবাসায়
+        </div>
+
+        <div class="opening-ornament reveal">
+          ❀ ───── ❀
+        </div>
+
+        <!-- Page 1 Bottom Cartoon: Auspicious Brass Mangal Kalash & Flickering Diyas -->
+        <div class="page-cartoon cartoon-kalash reveal" aria-hidden="true">
+          <svg viewBox="0 0 210 62">
+            <!-- Left Terracotta Diya -->
+            <path d="M26 48 Q40 58 54 48 Q40 43 26 48 Z" fill="#c95b36" stroke="#7d2b15" stroke-width="1.3"/>
+            <ellipse cx="40" cy="47.5" rx="12" ry="3" fill="#f7c852"/>
+            <path class="diya-flame" d="M40 31 Q45 39 40 46 Q35 39 40 31 Z" fill="#ff9f1c"/>
+            <path class="diya-flame" d="M40 36 Q42.5 41 40 45 Q37.5 41 40 36 Z" fill="#fff3a1"/>
+
+            <!-- Right Terracotta Diya -->
+            <path d="M156 48 Q170 58 184 48 Q170 43 156 48 Z" fill="#c95b36" stroke="#7d2b15" stroke-width="1.3"/>
+            <ellipse cx="170" cy="47.5" rx="12" ry="3" fill="#f7c852"/>
+            <path class="diya-flame" d="M170 31 Q175 39 170 46 Q165 39 170 31 Z" fill="#ff9f1c"/>
+            <path class="diya-flame" d="M170 36 Q172.5 41 170 45 Q167.5 41 170 36 Z" fill="#fff3a1"/>
+
+            <!-- Center Auspicious Mangal Ghat (মঙ্গল ঘট) -->
+            <g class="cartoon-bob">
+              <path d="M105 24 Q84 14 76 24 Q90 28 105 25 Z" fill="#2d7a36" stroke="#184d1f" stroke-width="1.2"/>
+              <path d="M105 24 Q126 14 134 24 Q120 28 105 25 Z" fill="#2d7a36" stroke="#184d1f" stroke-width="1.2"/>
+              <path d="M105 22 Q92 8 86 14 Q96 22 105 24 Z" fill="#469c49" stroke="#184d1f" stroke-width="1.1"/>
+              <path d="M105 22 Q118 8 124 14 Q114 22 105 24 Z" fill="#469c49" stroke="#184d1f" stroke-width="1.1"/>
+              <ellipse cx="105" cy="17" rx="8.5" ry="10.5" fill="#5da644" stroke="#25591c" stroke-width="1.3"/>
+              <circle cx="105" cy="16" r="2.2" fill="#d42228"/>
+              <path d="M95 25 H115 L112 29 Q124 36 118 50 Q105 56 92 50 Q86 36 98 29 Z"
+                    fill="#f0c14b" stroke="#8c5d12" stroke-width="1.4"/>
+              <path d="M90 39 Q105 43 120 39" fill="none" stroke="#c9242c" stroke-width="1.8"/>
+              <circle cx="105" cy="45" r="2.2" fill="#c9242c"/>
+            </g>
+
+            <!-- Marigold Petals Ground Line -->
+            <g fill="#f59e2d">
+              <circle cx="66" cy="52" r="2.4"/><circle cx="75" cy="54" r="2"/>
+              <circle cx="135" cy="54" r="2"/><circle cx="144" cy="52" r="2.4"/>
+            </g>
+          </svg>
+        </div>
+
+        <p class="tap-hint reveal">
+          নিমন্ত্রণপত্রটি খুলতে পর্দায় স্পর্শ করুন
+        </p>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================
+         PAGE 2: BABY'S PHOTO AND POEM
+    ====================================== -->
+
+    <section class="scene" id="scene1">
+
+      <div class="scene-content poem-layout">
+
+        <div class="section-kicker reveal">
+          আমাদের ছোট্ট সোনা
+        </div>
+
+
+        <!-- Bigger Simple & Elegant Circular Frame for Aishani's First Photo -->
+        <div class="photo-ring reveal">
+
+          <img
+            src="aishani1.jpeg"
+            alt="ঐশানীর ছবি"
+          >
+
+          <div class="photo-placeholder">
+            ঐশানীর<br>ছবি
+          </div>
+
+        </div>
+
+
+        <div class="poem">
+
+          <div class="reveal">
+            আর ভেবোনা ছোট আমায়,
+          </div>
+
+          <div class="reveal">
+            খাবো এবার ভাত,
+          </div>
+
+          <div class="reveal">
+            তোমাদের তাই আসতেই হবে
+          </div>
+
+          <div class="reveal">
+            দিতে আশীর্বাদ।
+          </div>
+                    
+          <div class="reveal">
+            আড্ডা হবে, মজা হবে 
+          </div>
+
+          <div class="reveal">
+            হবে ফটোশুট।
+          </div>
+
+          <div class="reveal">
+            না আসলে মিস হবে 
+          </div>
+
+          <div class="reveal">
+            আমার নতুন লুক।
+          </div>
+
+        </div>
+
+
+        <div class="ornament reveal">
+          ✦
+        </div>
+
+        <!-- Page 2 Bottom Cartoon: Baby Aishani Photoshoot Pose with Camera & Rice Bowl -->
+        <div class="page-cartoon cartoon-photoshoot reveal" aria-hidden="true">
+          <svg viewBox="0 0 240 78">
+            <!-- Little Brass Bowl of Rice on Left -->
+            <g transform="translate(46, 40)">
+              <path d="M-8 -10 Q-11 -16 -7 -21 M4 -11 Q1 -17 5 -22" fill="none" stroke="#c48e29" stroke-width="1.4" stroke-linecap="round" opacity="0.7"/>
+              <path d="M-15 2 Q0 -14 15 2 Z" fill="#ffffff" stroke="#d6cfc2" stroke-width="1.2"/>
+              <ellipse cx="0" cy="4" rx="19" ry="8" fill="#ecc048" stroke="#8c5d12" stroke-width="1.4"/>
+              <ellipse cx="0" cy="11" rx="12" ry="4" fill="#c48e29"/>
+            </g>
+
+            <!-- Cute Chubby Baby Aishani Properly Centered -->
+            <g transform="translate(120, 42)">
+              <g class="cartoon-bob">
+                <!-- Red Benarasi Dress -->
+                <path d="M-18 14 Q0 6 18 14 L22 32 H-22 Z" fill="#d12229" stroke="#7d1116" stroke-width="1.4"/>
+                <path d="M-16 15 L14 31" stroke="#f2c44d" stroke-width="2.2"/>
+                <!-- Happy Waving Arms -->
+                <path d="M-17 15 Q-28 6 -24 -2" fill="none" stroke="#ffd9be" stroke-width="5" stroke-linecap="round"/>
+                <path d="M17 15 Q28 6 24 -2" fill="none" stroke="#ffd9be" stroke-width="5" stroke-linecap="round"/>
+                <!-- Head -->
+                <circle cx="0" cy="-6" r="18" fill="#ffd9be" stroke="#6e3f2c" stroke-width="1.4"/>
+                <path d="M-18 -7 Q-18 -24 0 -24 Q18 -24 18 -7 Q10 -16 0 -15 Q-10 -16 -18 -7 Z" fill="#231918"/>
+                <!-- Golden Princess Crown -->
+                <polygon points="-8,-22 -5,-32 0,-25 5,-32 8,-22" fill="#f6d574" stroke="#b8801a" stroke-width="1.2" stroke-linejoin="round"/>
+                <circle cx="-5" cy="-32.5" r="1.3" fill="#d42228"/>
+                <circle cx="0" cy="-26" r="1.4" fill="#d42228"/>
+                <circle cx="5" cy="-32.5" r="1.3" fill="#d42228"/>
+                <!-- Bindi, Eyes & Cheeks -->
+                <circle cx="0" cy="-12" r="2" fill="#d42228"/>
+                <circle cx="-7" cy="-6" r="2.6" fill="#1e1514"/><circle cx="-7.8" cy="-7" r="0.9" fill="#fff"/>
+                <circle cx="7" cy="-6" r="2.6" fill="#1e1514"/><circle cx="6.2" cy="-7" r="0.9" fill="#fff"/>
+                <ellipse cx="-11" cy="-1" rx="3.4" ry="2" fill="#f28585" opacity="0.65"/>
+                <ellipse cx="11" cy="-1" rx="3.4" ry="2" fill="#f28585" opacity="0.65"/>
+                <path d="M-4 1 Q0 5 4 1" fill="none" stroke="#9e3b38" stroke-width="1.5" stroke-linecap="round"/>
+              </g>
+            </g>
+
+            <!-- Cute Retro Photoshoot Camera with Flashing Starburst on Right -->
+            <g transform="translate(192, 44)">
+              <rect x="-15" y="-11" width="30" height="21" rx="5" fill="#1f632d" stroke="#13421c" stroke-width="1.4"/>
+              <rect x="-9" y="-15" width="10" height="4" rx="1.5" fill="#e6b64c"/>
+              <circle cx="0" cy="0" r="7.5" fill="#fffdf7" stroke="#c48e29" stroke-width="1.6"/>
+              <circle cx="0" cy="0" r="4.2" fill="#3a6b8c"/>
+              <circle cx="-1.5" cy="-1.5" r="1.4" fill="#ffffff"/>
+              <!-- Camera Flash Sparkle -->
+              <g transform="translate(-12, -16)">
+                <path class="flash-sparkle" d="M0 -8 L2 -2 L8 0 L2 2 L0 8 L-2 2 L-8 0 L-2 -2 Z"
+                      fill="#ffcf40" stroke="#d98218" stroke-width="0.8"/>
+              </g>
+            </g>
+          </svg>
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================
+         PAGE 3: PARENTS
+    ====================================== -->
+
+    <section class="scene" id="scene2">
+
+      <div class="scene-content family-layout">
+
+        <div class="section-kicker reveal">
+          আমাদের ছোট্ট রাজকন্যা
+        </div>
+
+
+        <div class="family-heading reveal">
+          অমিত ও সঙ্গীতার<br>
+          একমাত্র রাজকন্যা
+        </div>
+
+
+        <div class="photo-landscape reveal">
+
+          <img
+            src="parents-photo.jpg"
+            alt="ঐশানী বাবা-মায়ের সঙ্গে"
+          >
+
+          <div class="photo-placeholder">
+            বাবা-মায়ের সঙ্গে<br>
+            ঐশানীর ছবি
+          </div>
+
+        </div>
+
+
+        <div class="family-names">
+
+          <div class="relation-label reveal">
+            পিতা
+          </div>
+
+          <strong class="person-name reveal">
+            অমিত কুমার মজুমদার
+          </strong>
+
+          <div class="name-divider reveal">
+            ❀
+          </div>
+
+          <div class="relation-label reveal">
+            মাতা
+          </div>
+
+          <strong class="person-name reveal">
+            সঙ্গীতা সাধুখাঁ
+          </strong>
+
+        </div>
+
+
+        <p class="small-blessing reveal">
+          তাঁদের জীবনের সবচেয়ে মিষ্টি উপহার — ঐশানী
+        </p>
+
+        <!-- Page 3 Bottom Cartoon: Baba & Ma Holding Little Princess Aishani -->
+        <div class="page-cartoon cartoon-parents reveal" aria-hidden="true">
+          <svg viewBox="0 0 240 80">
+            <!-- Floating Hearts -->
+            <g transform="translate(120, 15)">
+              <path class="heart-float" d="M0 -3 C-2 -7 -8 -7 -8 -2 C-8 2 0 6 0 6 C0 6 8 2 8 -2 C8 -7 2 -7 0 -3 Z" fill="#e63946"/>
+            </g>
+            <g transform="translate(84, 20)">
+              <path class="heart-float" d="M0 -2 C-1.5 -5 -5 -5 -5 -1.5 C-5 1 0 4 0 4 C0 4 5 1 5 -1.5 C5 -5 1.5 -5 0 -2 Z" fill="#f28482"/>
+            </g>
+            <g transform="translate(156, 20)">
+              <path class="heart-float" d="M0 -2 C-1.5 -5 -5 -5 -5 -1.5 C-5 1 0 4 0 4 C0 4 5 1 5 -1.5 C5 -5 1.5 -5 0 -2 Z" fill="#f28482"/>
+            </g>
+
+            <!-- Baba (Left) in Cream Panjabi & Red Uttariya -->
+            <g transform="translate(78, 44)">
+              <path d="M-16 14 Q0 8 16 14 L20 34 H-20 Z" fill="#fff8e6" stroke="#c48e29" stroke-width="1.3"/>
+              <path d="M-10 12 L4 34" stroke="#c6242a" stroke-width="3.2"/>
+              <circle cx="0" cy="-6" r="14" fill="#ffd9be" stroke="#6e3f2c" stroke-width="1.3"/>
+              <path d="M-14 -7 Q-14 -21 0 -21 Q14 -21 14 -7 Q7 -14 0 -14 Q-7 -14 -14 -7 Z" fill="#231918"/>
+              <circle cx="-5" cy="-6" r="1.8" fill="#1e1514"/>
+              <circle cx="5" cy="-6" r="1.8" fill="#1e1514"/>
+              <path d="M-4 0 Q0 4 4 0" fill="none" stroke="#8f3b32" stroke-width="1.4" stroke-linecap="round"/>
+            </g>
+
+            <!-- Ma (Right) in Red & Gold Bengali Saree -->
+            <g transform="translate(162, 44)">
+              <path d="M-16 14 Q0 8 16 14 L20 34 H-20 Z" fill="#d12229" stroke="#7d1116" stroke-width="1.3"/>
+              <path d="M11 12 L-5 34" stroke="#f6d574" stroke-width="3"/>
+              <circle cx="0" cy="-6" r="14" fill="#ffd9be" stroke="#6e3f2c" stroke-width="1.3"/>
+              <circle cx="0" cy="-21" r="6" fill="#231918"/>
+              <path d="M-14 -6 Q-14 -20 0 -20 Q14 -20 14 -6 Q6 -14 0 -14 Q-6 -14 -14 -6 Z" fill="#231918"/>
+              <circle cx="0" cy="-11" r="2.1" fill="#d42228"/>
+              <circle cx="-5" cy="-5" r="1.8" fill="#1e1514"/>
+              <circle cx="5" cy="-5" r="1.8" fill="#1e1514"/>
+              <path d="M-4 1 Q0 5 4 1" fill="none" stroke="#8f3b32" stroke-width="1.4" stroke-linecap="round"/>
+            </g>
+
+            <!-- Little Princess Aishani Properly Centered Between Baba & Ma -->
+            <g transform="translate(120, 49)">
+              <g class="cartoon-bob">
+                <path d="M-13 10 Q0 4 13 10 L16 28 H-16 Z" fill="#e63946" stroke="#f6d574" stroke-width="1.3"/>
+                <circle cx="0" cy="-4" r="13" fill="#ffd9be" stroke="#6e3f2c" stroke-width="1.3"/>
+                <!-- Soft Arched Baby Hairline -->
+                <path d="M-13 -4 Q-13 -18 0 -18 Q13 -18 13 -4 Q6 -13 0 -12 Q-6 -13 -13 -4 Z" fill="#231918"/>
+                <!-- Tiny Golden Princess Crown -->
+                <polygon points="-6,-16.5 -3.5,-24 0,-18.5 3.5,-24 6,-16.5" fill="#f6d574" stroke="#b8801a" stroke-width="1" stroke-linejoin="round"/>
+                <!-- Bindi on Forehead, Eyes, Cheeks & Smile -->
+                <circle cx="0" cy="-8.5" r="1.4" fill="#d42228"/>
+                <circle cx="-4.5" cy="-3.5" r="1.8" fill="#1e1514"/><circle cx="-5" cy="-4.1" r="0.6" fill="#ffffff"/>
+                <circle cx="4.5" cy="-3.5" r="1.8" fill="#1e1514"/><circle cx="4" cy="-4.1" r="0.6" fill="#ffffff"/>
+                <ellipse cx="-7.5" cy="0" rx="2.3" ry="1.3" fill="#f28585" opacity="0.65"/>
+                <ellipse cx="7.5" cy="0" rx="2.3" ry="1.3" fill="#f28585" opacity="0.65"/>
+                <path d="M-3 1.5 Q0 4.5 3 1.5" fill="none" stroke="#9e3b38" stroke-width="1.3" stroke-linecap="round"/>
+              </g>
+            </g>
+          </svg>
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================
+         PAGE 4: GRANDPARENTS
+    ====================================== -->
+
+    <section class="scene" id="scene3">
+
+      <div class="scene-content family-layout">
+
+        <div class="section-kicker reveal">
+          দাদু-ঠাম্মির আদরের মিঠি
+        </div>
+
+
+        <div class="family-heading reveal">
+          দাদু ঠাম্মির<br>
+          আদরের মিঠি
+        </div>
+
+
+        <div class="photo-landscape reveal">
+
+          <img
+            src="grandparents-photo.jpg"
+            alt="ঐশানী দাদু-ঠাম্মির সঙ্গে"
+          >
+
+          <div class="photo-placeholder">
+            দাদু-ঠাম্মির সঙ্গে<br>
+            ঐশানীর ছবি
+          </div>
+
+        </div>
+
+
+        <div class="family-names grand-names">
+
+          <div class="relation-label reveal">
+            দাদু
+          </div>
+
+          <strong class="person-name reveal">
+            সুধাংশু ভূষণ মজুমদার
+          </strong>
+
+          <div class="name-divider reveal">
+            ❀
+          </div>
+
+          <div class="relation-label reveal">
+            ঠাম্মি
+          </div>
+
+          <strong class="person-name reveal">
+            ছন্দা মজুমদার
+          </strong>
+
+        </div>
+
+
+        <p class="small-blessing reveal">
+          দাদু-ঠাম্মির চোখের মণি, সবার আদরের মিঠি
+        </p>
+
+        <!-- Page 4 Bottom Cartoon: Dadu & Thammi Blessing Beloved Little Mithi -->
+        <div class="page-cartoon cartoon-grandparents reveal" aria-hidden="true">
+          <svg viewBox="0 0 240 80">
+            <!-- Showering Blessing Flower Petals -->
+            <g transform="translate(120, 16)">
+              <g class="heart-float" fill="#f59e2d">
+                <circle cx="-15" cy="-2" r="2.5"/><circle cx="0" cy="-6" r="3"/><circle cx="15" cy="-2" r="2.5"/>
+                <circle cx="-8" cy="5" r="2" fill="#e63946"/><circle cx="8" cy="5" r="2" fill="#e63946"/>
+              </g>
+            </g>
+
+            <!-- Dadu (Left) with Spectacles & Cream Shawl -->
+            <g transform="translate(78, 44)">
+              <path d="M-16 14 Q0 8 16 14 L20 34 H-20 Z" fill="#fffdf7" stroke="#c48e29" stroke-width="1.3"/>
+              <path d="M-14 13 Q0 22 14 13" fill="none" stroke="#d99f2b" stroke-width="3"/>
+              <circle cx="0" cy="-6" r="14" fill="#ffd9be" stroke="#6e3f2c" stroke-width="1.3"/>
+              <!-- Silver Hair -->
+              <path d="M-14 -7 Q-14 -20 0 -20 Q14 -20 14 -7 Q8 -13 0 -13 Q-8 -13 -14 -7 Z" fill="#d8dde6"/>
+              <!-- Round Glasses -->
+              <circle cx="-5.5" cy="-6" r="4" fill="none" stroke="#5c4033" stroke-width="1.2"/>
+              <circle cx="5.5" cy="-6" r="4" fill="none" stroke="#5c4033" stroke-width="1.2"/>
+              <line x1="-1.5" y1="-6" x2="1.5" y2="-6" stroke="#5c4033" stroke-width="1.2"/>
+              <circle cx="-5.5" cy="-6" r="1.4" fill="#1e1514"/>
+              <circle cx="5.5" cy="-6" r="1.4" fill="#1e1514"/>
+              <path d="M-4 1 Q0 5 4 1" fill="none" stroke="#8f3b32" stroke-width="1.4" stroke-linecap="round"/>
+            </g>
+
+            <!-- Thammi (Right) in Red-Bordered Tant Saree & Big Red Bindi -->
+            <g transform="translate(162, 44)">
+              <path d="M-16 14 Q0 8 16 14 L20 34 H-20 Z" fill="#fff8eb" stroke="#b5242a" stroke-width="1.4"/>
+              <path d="M12 12 L-5 34" stroke="#c6242a" stroke-width="3.2"/>
+              <circle cx="0" cy="-6" r="14" fill="#ffd9be" stroke="#6e3f2c" stroke-width="1.3"/>
+              <circle cx="0" cy="-21" r="6" fill="#cdd4de"/>
+              <path d="M-14 -6 Q-14 -20 0 -20 Q14 -20 14 -6 Q6 -14 0 -14 Q-6 -14 -14 -6 Z" fill="#cdd4de"/>
+              <circle cx="0" cy="-11" r="2.6" fill="#d42228"/>
+              <circle cx="-5" cy="-5" r="1.7" fill="#1e1514"/>
+              <circle cx="5" cy="-5" r="1.7" fill="#1e1514"/>
+              <path d="M-4 1 Q0 5 4 1" fill="none" stroke="#8f3b32" stroke-width="1.4" stroke-linecap="round"/>
+            </g>
+
+          <!-- Beloved Little Mithi Properly Centered Between Dadu & Thammi -->
+            <g transform="translate(120, 49)">
+              <g class="cartoon-bob">
+                <path d="M-13 10 Q0 4 13 10 L16 28 H-16 Z" fill="#d12229" stroke="#f6d574" stroke-width="1.3"/>
+                <circle cx="0" cy="-4" r="13" fill="#ffd9be" stroke="#6e3f2c" stroke-width="1.3"/>
+                <!-- Soft Arched Baby Hairline & Cute Side Puffs -->
+                <circle cx="-11.5" cy="-12" r="3.5" fill="#231918"/>
+                <circle cx="11.5" cy="-12" r="3.5" fill="#231918"/>
+                <path d="M-13 -4 Q-13 -18 0 -18 Q13 -18 13 -4 Q6 -13 0 -12 Q-6 -13 -13 -4 Z" fill="#231918"/>
+                <!-- Bindi on Forehead, Eyes, Cheeks & Smile -->
+                <circle cx="0" cy="-8.5" r="1.4" fill="#d42228"/>
+                <circle cx="-4.5" cy="-3.5" r="1.8" fill="#1e1514"/><circle cx="-5" cy="-4.1" r="0.6" fill="#ffffff"/>
+                <circle cx="4.5" cy="-3.5" r="1.8" fill="#1e1514"/><circle cx="4" cy="-4.1" r="0.6" fill="#ffffff"/>
+                <ellipse cx="-7.5" cy="0" rx="2.3" ry="1.3" fill="#f28585" opacity="0.65"/>
+                <ellipse cx="7.5" cy="0" rx="2.3" ry="1.3" fill="#f28585" opacity="0.65"/>
+                <path d="M-3 1.5 Q0 4.5 3 1.5" fill="none" stroke="#9e3b38" stroke-width="1.3" stroke-linecap="round"/>
+              </g>
+            </g>  
+          </svg>
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================
+         PAGE 5: EVENT DETAILS
+    ====================================== -->
+
+    <section class="scene" id="scene4">
+
+      <div class="scene-content details-layout">
+
+        <div class="section-kicker reveal">
+          ❀ শুভক্ষণে আমন্ত্রণ ❀
+        </div>
+
+
+        <div class="event-heading reveal">
+          শুভ অন্নপ্রাশন
+          <span>ও প্রীতিভোজ</span>
+        </div>
+
+
+        <!-- Illustrated Brass Annaprasan Thali on Magenta Asan -->
+
+        <div class="thali-art reveal" aria-hidden="true">
+
+          <svg viewBox="0 0 300 165">
+
+            <polygon points="34,35 266,35 286,146 14,146" fill="#b03463" stroke="#75183c" stroke-width="2"/>
+            <line x1="28" y1="46" x2="272" y2="46" stroke="#f2c44d" stroke-width="1.4" stroke-dasharray="4 3"/>
+            <line x1="20" y1="135" x2="280" y2="135" stroke="#f2c44d" stroke-width="1.6"/>
+
+            <ellipse cx="150" cy="88" rx="74" ry="34" fill="#e6b235" stroke="#8c5d12" stroke-width="2"/>
+            <ellipse cx="150" cy="86" rx="63" ry="28" fill="#fae08c" stroke="#b8821c" stroke-width="1.3"/>
+
+            <path d="M105 86 Q113 54 138 54 Q163 54 171 86 Q138 96 105 86 Z"
+                  fill="#ffffff" stroke="#ded7c8" stroke-width="1.3"/>
+            <ellipse cx="158" cy="98" rx="14" ry="6" fill="#468736"/>
+            <ellipse cx="182" cy="82" rx="12" ry="6" fill="#de8b26"/>
+            <ellipse cx="192" cy="92" rx="10" ry="5" fill="#c76822"/>
+            <circle cx="180" cy="100" r="6" fill="#fff8e3" stroke="#d4a13b" stroke-width="1.1"/>
+
+            <polygon points="56,42 74,42 71,67 59,67" fill="#ecc048" stroke="#8c5d12" stroke-width="1.5"/>
+            <ellipse cx="65" cy="42" rx="9" ry="3.2" fill="#d9f1ff" stroke="#8c5d12" stroke-width="1.2"/>
+
+            <ellipse cx="44" cy="88" rx="18" ry="9" fill="#ecc048" stroke="#8c5d12" stroke-width="1.5"/>
+            <ellipse cx="44" cy="86" rx="14" ry="6" fill="#f2b830"/>
+
+            <ellipse cx="72" cy="126" rx="19" ry="9.5" fill="#ecc048" stroke="#8c5d12" stroke-width="1.5"/>
+            <ellipse cx="72" cy="124" rx="15" ry="6.5" fill="#faecc8"/>
+
+            <ellipse cx="150" cy="134" rx="19" ry="9.5" fill="#ecc048" stroke="#8c5d12" stroke-width="1.5"/>
+            <ellipse cx="150" cy="132" rx="15" ry="6.5" fill="#e08926"/>
+
+            <ellipse cx="228" cy="124" rx="19" ry="9.5" fill="#ecc048" stroke="#8c5d12" stroke-width="1.5"/>
+            <ellipse cx="228" cy="122" rx="15" ry="6.5" fill="#cc2b25"/>
+
+            <ellipse cx="250" cy="76" rx="18" ry="9" fill="#ecc048" stroke="#8c5d12" stroke-width="1.5"/>
+            <ellipse cx="250" cy="74" rx="14" ry="6" fill="#fffdf7"/>
+
+          </svg>
+
+        </div>
+
+
+        <!-- DATE AND TIME (Box-Free, Line-by-Line) -->
+
+        <div class="date-section">
+
+          <div class="detail-label reveal">
+            শুভ দিন ও তারিখ
+          </div>
+
+          <div class="date-bengali reveal">
+            ২৫শে পৌষ, ১৪৩২
+          </div>
+
+          <div class="date-english reveal">
+           ইং ১০ জানুয়ারি ২০২৭, রবিবার
+          </div>
+
+          <div class="time-highlight reveal">
+            <span>◷</span>
+            মধ্যাহ্ন ভোজন
+          </div>
+
+        </div>
+
+
+        <div class="floral-rule reveal" aria-hidden="true">
+          <span></span><i>❀</i><span></span>
+        </div>
+
+
+        <!-- VENUE (Box-Free, Line-by-Line) -->
+
+        <div class="venue-section">
+
+          <div class="detail-label reveal">
+            অনুষ্ঠানস্থল
+          </div>
+
+          <div class="venue-name reveal">
+            পূর্ণরেখা লজ
+          </div>
+
+          <div class="venue-address reveal">
+            ষষ্ঠী তলা, সাপুইপাড়া, বালি, হাওড়া – ৭১১২২৭
+          </div>
+
+
+          <!-- MAP LINK -->
+
+          <a
+            class="map-link reveal"
+            href="https://www.google.com/maps/place/?q=place_id:ChIJRTWRcTqd-DkR00RgMyszxCc"
+            target="_blank"
+            rel="noopener"
+          >
+
+            <span class="map-icon">
+              ⌖
+            </span>
+
+            মানচিত্রে পথ দেখুন
+
+            <span class="map-arrow">
+              ↗
+            </span>
+
+          </a>
+
+        </div>
+
+
+
+        <!-- DIRECTIONS -->
+
+        <div class="directions reveal">
+
+          <span class="direction-icon">
+            ✧
+          </span>
+
+          বেলুড় স্টেশনে নেমে ৫ নম্বর প্ল্যাটফর্ম থেকে বাইরে এসে
+          টোটো বা অটোতে ষষ্ঠীতলা স্টপেজ।
+
+        </div>
+
+        <!-- Page 5 Bottom Cartoon: Festive Toto Driving Toward Marigold Welcome Gate -->
+        <div class="page-cartoon cartoon-toto reveal" aria-hidden="true">
+          <svg viewBox="0 0 260 64">
+            <!-- Ground Track -->
+            <line x1="16" y1="56" x2="244" y2="56" stroke="#c48e29" stroke-width="1.5" stroke-dasharray="5 4"/>
+
+            <!-- Festive Marigold Welcome Gate (তোরণ) on Right -->
+            <g transform="translate(212, 10)">
+              <rect x="-18" y="8" width="5" height="38" fill="#c6242a" rx="2"/>
+              <rect x="13" y="8" width="5" height="38" fill="#c6242a" rx="2"/>
+              <path d="M-22 10 Q0 -4 22 10" fill="none" stroke="#1f632d" stroke-width="4" stroke-linecap="round"/>
+              <path d="M-16 11 Q0 22 16 11" fill="none" stroke="#f5a623" stroke-width="3.2" stroke-dasharray="2 2"/>
+              <circle cx="0" cy="4" r="3.5" fill="#f6d574" stroke="#c6242a" stroke-width="1"/>
+            </g>
+
+            <!-- Cute Animated Bengali Toto Driving Toward Venue -->
+            <g class="toto-drive">
+              <path d="M48 16 H112 L118 22 H44 Z" fill="#1f632d" stroke="#13421c" stroke-width="1.3"/>
+              <path d="M50 22 Q66 28 80 22 Q96 28 112 22" fill="none" stroke="#f5a623" stroke-width="2.5" stroke-dasharray="2 1.5"/>
+              <line x1="52" y1="22" x2="52" y2="42" stroke="#13421c" stroke-width="2"/>
+              <line x1="82" y1="22" x2="82" y2="42" stroke="#13421c" stroke-width="2"/>
+              <line x1="108" y1="22" x2="112" y2="44" stroke="#13421c" stroke-width="2"/>
+              <path d="M44 36 H116 L120 48 H42 Z" fill="#c6242a" stroke="#7d1116" stroke-width="1.4"/>
+              <rect x="48" y="39" width="62" height="3" fill="#f6d574"/>
+              <circle cx="120" cy="41" r="2.6" fill="#fff3a1" stroke="#c48e29" stroke-width="1"/>
+              <polygon points="123,39 142,34 142,48 123,43" fill="#ffe680" opacity="0.45"/>
+              <circle cx="56" cy="50" r="6.5" fill="#2b211e" stroke="#f6d574" stroke-width="1.5"/>
+              <circle cx="56" cy="50" r="2.2" fill="#f6d574"/>
+              <circle cx="108" cy="50" r="6.5" fill="#2b211e" stroke="#f6d574" stroke-width="1.5"/>
+              <circle cx="108" cy="50" r="2.2" fill="#f6d574"/>
+            </g>
+          </svg>
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- =====================================
+         PAGE 6: CLOSING INVITATION
+    ====================================== -->
+
+    <section class="scene closing" id="scene5">
+
+      <div class="scene-content closing-layout">
+
+        <div class="section-kicker reveal">
+          আপনাদের অপেক্ষায়...
+        </div>
+
+        <!-- Bigger Simple & Elegant Circular Frame for Aishani's Last Photo -->
+        <div class="closing-photo reveal">
+          <img
+            src="aishani-photo.jpg"
+            alt="আমাদের আদরের ঐশানী"
+          >
+          <div class="photo-placeholder">
+            ঐশানীর<br>ছবি
+          </div>
+          <div class="closing-photo-decoration">❀</div>
+        </div>
+
+        <div class="closing-heading reveal">
+          আসুন, আমাদের আদরের নাতনি ঐশানীর জীবনের
+          এই শুভ ও মিষ্টি মুহূর্তটিকে আরও সুন্দর করে তুলতে। আপনাদের স্নেহ ও আশীর্বাদই আমাদের ছোট্ট সোনার কাছে
+          সবচেয়ে বড় উপহার। 
+        </div>
+
+
+        <div class="floral-rule reveal" aria-hidden="true">
+          <span></span><i>✦</i><span></span>
+        </div>
+
+
+        <p class="final-line reveal">
+
+          আপনি / আপনারা উপস্থিত হয়ে আমাদের নাতনিকে আশীর্বাদ করবেন।❤️
+
+        </p>
+
+
+        <div class="signoff">
+
+          <strong class="reveal">
+            সস্নেহ আমন্ত্রণে,
+          </strong>
+
+          <strong class="reveal">
+            বিনীত,
+          </strong>
+
+          <strong class="reveal">
+            দাদু ও ঠাম্মি
+          </strong>
+
+          <span class="reveal">
+            (সুধাংশু ভূষণ মজুমদার ও ছন্দা মজুমদার)
+          </span>
+
+        </div>
+
+
+
+        <!-- WhatsApp RSVP -->
+
+        <a
+          class="rsvp reveal"
+          id="rsvpLink"
+          href="#"
+          target="_blank"
+          rel="noopener"
+        >
+          WhatsApp
+        </a>
+
+
+        <!-- Replay -->
+
+        <button
+          class="replay reveal"
+          id="replayBtn"
+          type="button"
+        >
+          ↻ আবার দেখুন
+        </button>
+
+        <!-- Page 6 Bottom Cartoon: Baby Aishani in Golden Crown Playing with Toys -->
+        <div class="page-cartoon cartoon-namaskar reveal" aria-hidden="true">
+          <svg viewBox="0 0 240 76">
+            <!-- Floating Hearts & Sparkles -->
+            <g transform="translate(76, 18)">
+              <path class="heart-float" d="M0 -2 C-1.5 -5 -6 -5 -6 -1.5 C-6 1.5 0 5 0 5 C0 5 6 1.5 6 -1.5 C6 -5 1.5 -5 0 -2 Z" fill="#e63946"/>
+            </g>
+            <g transform="translate(164, 18)">
+              <path class="heart-float" d="M0 -2 C-1.5 -5 -6 -5 -6 -1.5 C-6 1.5 0 5 0 5 C0 5 6 1.5 6 -1.5 C6 -5 1.5 -5 0 -2 Z" fill="#e63946"/>
+            </g>
+            <circle cx="54" cy="30" r="2.3" fill="#f5a623"/>
+            <circle cx="186" cy="30" r="2.3" fill="#f5a623"/>
+
+            <!-- Left Toy: Colorful Play Ball & Baby Rattle -->
+            <g transform="translate(56, 54)">
+              <!-- Rattle -->
+              <line x1="-14" y1="12" x2="-7" y2="1" stroke="#c48e29" stroke-width="2.4" stroke-linecap="round"/>
+              <circle cx="-6" cy="-1" r="5" fill="#f6d574" stroke="#b8801a" stroke-width="1.2"/>
+              <circle cx="-6" cy="-1" r="1.8" fill="#d12229"/>
+              <!-- Bouncy Ball -->
+              <circle cx="9" cy="7" r="9" fill="#1f632d" stroke="#13421c" stroke-width="1.2"/>
+              <path d="M2 1 Q9 7 16 1 M2 13 Q9 7 16 13" fill="none" stroke="#f6d574" stroke-width="1.6"/>
+              <circle cx="9" cy="7" r="2.5" fill="#d12229"/>
+            </g>
+
+            <!-- Center: Baby Aishani in Golden Crown Playing with Toy Blocks -->
+            <g transform="translate(120, 40)">
+              <g class="cartoon-bob">
+                <!-- Red & Gold Benarasi Outfit -->
+                <path d="M-18 12 Q0 5 18 12 L22 29 H-22 Z" fill="#d12229" stroke="#7d1116" stroke-width="1.3"/>
+                <path d="M-15 13 L13 28" stroke="#f2c44d" stroke-width="2"/>
+
+                <!-- Playful Arms Reaching Toward Blocks -->
+                <path d="M-16 13 Q-22 21 -12 24" fill="none" stroke="#ffd9be" stroke-width="4.5" stroke-linecap="round"/>
+                <path d="M16 13 Q22 21 12 24" fill="none" stroke="#ffd9be" stroke-width="4.5" stroke-linecap="round"/>
+
+                <!-- Head -->
+                <circle cx="0" cy="-6" r="16" fill="#ffd9be" stroke="#6e3f2c" stroke-width="1.3"/>
+                <path d="M-16 -7 Q-16 -22 0 -22 Q16 -22 16 -7 Q9 -15 0 -14 Q-9 -15 -16 -7 Z" fill="#231918"/>
+
+                <!-- Golden Princess Crown -->
+                <polygon points="-7,-20 -4,-29 0,-23 4,-29 7,-20" fill="#f6d574" stroke="#b8801a" stroke-width="1.1" stroke-linejoin="round"/>
+                <circle cx="-4" cy="-29.5" r="1.2" fill="#d42228"/>
+                <circle cx="0" cy="-23.8" r="1.3" fill="#d42228"/>
+                <circle cx="4" cy="-29.5" r="1.2" fill="#d42228"/>
+
+                <!-- Sparkling Eyes, Bindi & Joyful Smile -->
+                <circle cx="0" cy="-11" r="1.9" fill="#d42228"/>
+                <circle cx="-6" cy="-6" r="2.3" fill="#1e1514"/><circle cx="-6.7" cy="-6.8" r="0.8" fill="#ffffff"/>
+                <circle cx="6" cy="-6" r="2.3" fill="#1e1514"/><circle cx="5.3" cy="-6.8" r="0.8" fill="#ffffff"/>
+                <ellipse cx="-10" cy="-1.5" rx="3.2" ry="1.8" fill="#f28585" opacity="0.65"/>
+                <ellipse cx="10" cy="-1.5" rx="3.2" ry="1.8" fill="#f28585" opacity="0.65"/>
+                <path d="M-4 0 Q0 4.5 4 0" fill="none" stroke="#9e3b38" stroke-width="1.5" stroke-linecap="round"/>
+
+                <!-- Stacked Colorful Toy Blocks in Front of Her -->
+                <rect x="-11" y="23" width="9" height="9" rx="1.5" fill="#1f632d" stroke="#13421c" stroke-width="1"/>
+                <rect x="2" y="23" width="9" height="9" rx="1.5" fill="#f6d574" stroke="#b8801a" stroke-width="1"/>
+                <rect x="-4.5" y="15" width="9" height="8.5" rx="1.5" fill="#e63946" stroke="#7d1116" stroke-width="1"/>
+              </g>
+            </g>
+
+            <!-- Right Toy: Cute Plush Teddy Bear -->
+            <g transform="translate(184, 52)">
+              <!-- Ears -->
+              <circle cx="-6" cy="-9" r="3.2" fill="#c98849" stroke="#6e3f2c" stroke-width="1.1"/>
+              <circle cx="6" cy="-9" r="3.2" fill="#c98849" stroke="#6e3f2c" stroke-width="1.1"/>
+              <!-- Body & Paws -->
+              <ellipse cx="0" cy="8" rx="8" ry="9" fill="#d99b5b" stroke="#6e3f2c" stroke-width="1.1"/>
+              <circle cx="0" cy="8" r="4.5" fill="#f7dfc2"/>
+              <circle cx="-7" cy="14" r="3.2" fill="#c98849" stroke="#6e3f2c" stroke-width="1"/>
+              <circle cx="7" cy="14" r="3.2" fill="#c98849" stroke="#6e3f2c" stroke-width="1"/>
+              <!-- Head -->
+              <circle cx="0" cy="-3" r="7.5" fill="#d99b5b" stroke="#6e3f2c" stroke-width="1.1"/>
+              <ellipse cx="0" cy="-1.5" rx="3.4" ry="2.4" fill="#f7dfc2"/>
+              <circle cx="0" cy="-2.3" r="1.1" fill="#472a1b"/>
+              <circle cx="-2.8" cy="-4.5" r="1" fill="#1e1514"/>
+              <circle cx="2.8" cy="-4.5" r="1" fill="#1e1514"/>
+            </g>
+          </svg>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+
+  <!-- =====================================
+       PAGE INDICATORS AND NAVIGATION HINT
+  ====================================== -->
+
+  <div
+    class="page-dots"
+    id="pageDots"
+    aria-hidden="true"
+  ></div>
+
+
+  <div class="edge-hint" aria-hidden="true">
+
+    <span>
+      ‹ আগের
+    </span>
+
+    <span>
+      স্পর্শ করে এগিয়ে যান
+    </span>
+
+    <span>
+      পরের ›
+    </span>
+
+  </div>
+
+
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
