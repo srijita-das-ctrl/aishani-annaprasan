@@ -115,7 +115,11 @@ function spawnTapRipple(x, y) {
 // Tap left side = previous page
 // Tap centre/right side = next page
 stage.addEventListener('click', (event) => {
-  if (event.target.closest('a, button')) return;
+  const interactive = event.target.closest('a, button');
+  if (interactive) {
+    event.stopPropagation();
+    return;
+  }
 
   spawnTapRipple(event.clientX, event.clientY);
 
@@ -200,13 +204,6 @@ musicToggle.addEventListener('click', async (event) => {
     }
   }
 });
-
-// WhatsApp RSVP (unchanged message & number)
-const message =
-  'শুভেচ্ছা। ঐশানী মজুমদারের অন্নপ্রাশন ও প্রীতিভোজে উপস্থিতি জানাচ্ছি। নাম: ';
-
-document.getElementById('rsvpLink').href =
-  'https://wa.me/918981464594?text=' + encodeURIComponent(message);
 
 // Falling decorative marigold & jasmine petals
 const petals = document.getElementById('petals');
